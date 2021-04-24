@@ -17,7 +17,7 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 for (i = 0; i<numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
-    var audio = new Audio("sounds/tom-4.mp3");
+    var audio = new Audio("sounds/tom-1.mp3");
     audio.play();
 
   });
